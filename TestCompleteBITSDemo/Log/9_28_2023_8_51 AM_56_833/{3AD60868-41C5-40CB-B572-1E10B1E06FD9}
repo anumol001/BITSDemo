@@ -1,0 +1,1521 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 15">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="15"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage34_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="669"/>
+					<Prp name="object bottom" type="I" value="966"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageStLukeSLosTibcoSpotfire.panel5"/>
+					<Prp name="datetime" type="D" value="45197.578419375"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="15"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="691"/>
+					<Prp name="object left" type="I" value="91"/>
+					<Prp name="image file name" type="S" value="visImage34.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="372"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="391"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="475"/>
+					<Prp name="object bottom" type="I" value="966"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageStLukeSLosTibcoSpotfire.panel5"/>
+					<Prp name="datetime" type="D" value="45195.5731944444"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="15"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="691"/>
+					<Prp name="object left" type="I" value="91"/>
+					<Prp name="image file name" type="S" value="tcvi98386250912819.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="372"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="542"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45197.3700875116"/>
+			<Prp name="remarks" type="S" value="A click at point (218, 216) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageStLukeSLosTibcoSpotfire.panel5&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://analyticsdev.guidehouse.com/spotfire/wp/analysis?file=/Healthcare/St%20Lukes/BITS/LOS/Dashboard/St.%20Luke%27s%20LOS&amp;waid=gt3OXb9fh0ivLzUAHtzVp-16123808d78b-g&amp;wavid=0&quot;).FindElement(&quot;//div[5]/div/div[3]/div/div/div[2]&quot;))"/>
+		</Node>
+		<Node name="message 0">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="1039"/>
+					<Prp name="object name" type="S" value="Aliases.browser.BrowserWindow"/>
+					<Prp name="datetime" type="D" value="45197.5782822454"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="1929"/>
+					<Prp name="object left" type="I" value="-9"/>
+					<Prp name="image file name" type="S" value="visImage19.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="-9"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The 'St. Luke's LOS – TIBCO Spotfire - Work - Microsoft Edge' window was maximized."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45197.3699496412"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.BrowserWindow&#xA;(Sys.Browser(&quot;edge&quot;).BrowserWindow(0))"/>
+		</Node>
+		<Node name="message 18">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="18"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage37_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="234"/>
+					<Prp name="object bottom" type="I" value="251"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageStLukeSLosTibcoSpotfire.buttonResetFilter"/>
+					<Prp name="datetime" type="D" value="45197.5784460185"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="18"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="135"/>
+					<Prp name="object left" type="I" value="-3"/>
+					<Prp name="image file name" type="S" value="visImage37.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="217"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="21"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="235"/>
+					<Prp name="object bottom" type="I" value="251"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageStLukeSLosTibcoSpotfire.buttonResetFilter"/>
+					<Prp name="datetime" type="D" value="45195.5733333333"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="18"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="166"/>
+					<Prp name="object left" type="I" value="28"/>
+					<Prp name="image file name" type="S" value="tcvi98398046912822.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="217"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="111"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45197.3701145486"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageStLukeSLosTibcoSpotfire.buttonResetFilter&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://analyticsdev.guidehouse.com/spotfire/wp/analysis?file=/Healthcare/St%20Lukes/BITS/LOS/Dashboard/St.%20Luke%27s%20LOS&amp;waid=gt3OXb9fh0ivLzUAHtzVp-16123808d78b-g&amp;wavid=0&quot;).FindElement(&quot;//input[@value='Reset Filter']&quot;))"/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage24_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="337"/>
+					<Prp name="object bottom" type="I" value="355"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageStLukeSLosTibcoSpotfire.vg"/>
+					<Prp name="datetime" type="D" value="45197.5783327315"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="300"/>
+					<Prp name="object left" type="I" value="263"/>
+					<Prp name="image file name" type="S" value="visImage24.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="320"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="281"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="348"/>
+					<Prp name="object bottom" type="I" value="355"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageStLukeSLosTibcoSpotfire.vg"/>
+					<Prp name="datetime" type="D" value="45195.5728819444"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="300"/>
+					<Prp name="object left" type="I" value="263"/>
+					<Prp name="image file name" type="S" value="tcvi9835928191284.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="320"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="297"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45197.3700012153"/>
+			<Prp name="remarks" type="S" value="A click at point (13, 12) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageStLukeSLosTibcoSpotfire.vg&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://analyticsdev.guidehouse.com/spotfire/wp/analysis?file=/Healthcare/St%20Lukes/BITS/LOS/Dashboard/St.%20Luke%27s%20LOS&amp;waid=gt3OXb9fh0ivLzUAHtzVp-16123808d78b-g&amp;wavid=0&quot;).FindElement(&quot;//div[@id='sidenav_popout']//p[3]//*[name()='svg']&quot;))"/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage25_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="381"/>
+					<Prp name="object bottom" type="I" value="404"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageStLukeSLosTibcoSpotfire.textnodeSystemFacility"/>
+					<Prp name="datetime" type="D" value="45197.5783546644"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="332"/>
+					<Prp name="object left" type="I" value="26"/>
+					<Prp name="image file name" type="S" value="visImage25.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="375"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="305"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="381"/>
+					<Prp name="object bottom" type="I" value="404"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageStLukeSLosTibcoSpotfire.textnodeSystemFacility"/>
+					<Prp name="datetime" type="D" value="45195.5729050926"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="332"/>
+					<Prp name="object left" type="I" value="26"/>
+					<Prp name="image file name" type="S" value="tcvi9836117191287.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="375"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="327"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45197.3700226736"/>
+			<Prp name="remarks" type="S" value="A click at point (203, 4) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageStLukeSLosTibcoSpotfire.textnodeSystemFacility&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://analyticsdev.guidehouse.com/spotfire/wp/analysis?file=/Healthcare/St%20Lukes/BITS/LOS/Dashboard/St.%20Luke%27s%20LOS&amp;waid=gt3OXb9fh0ivLzUAHtzVp-16123808d78b-g&amp;wavid=0&quot;).FindElement(&quot;//p[.='System/Facility']&quot;))"/>
+		</Node>
+		<Node name="message 19">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="19"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage38_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="227"/>
+					<Prp name="object bottom" type="I" value="259"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageStLukeSLosTibcoSpotfire.textnodeFilters"/>
+					<Prp name="datetime" type="D" value="45197.5784511227"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="19"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="411"/>
+					<Prp name="object left" type="I" value="380"/>
+					<Prp name="image file name" type="S" value="visImage38.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="196"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="394"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="239"/>
+					<Prp name="object bottom" type="I" value="259"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageStLukeSLosTibcoSpotfire.textnodeFilters"/>
+					<Prp name="datetime" type="D" value="45195.5733912037"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="19"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="411"/>
+					<Prp name="object left" type="I" value="380"/>
+					<Prp name="image file name" type="S" value="tcvi98402843912823.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="196"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="391"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="19"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="19"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45197.3701189815"/>
+			<Prp name="remarks" type="S" value="A click at point (10, 23) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageStLukeSLosTibcoSpotfire.textnodeFilters&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://analyticsdev.guidehouse.com/spotfire/wp/analysis?file=/Healthcare/St%20Lukes/BITS/LOS/Dashboard/St.%20Luke%27s%20LOS&amp;waid=gt3OXb9fh0ivLzUAHtzVp-16123808d78b-g&amp;wavid=0&quot;).FindElement(&quot;//span[.='Filters']&quot;))"/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage26_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="440"/>
+					<Prp name="object bottom" type="I" value="458"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageStLukeSLosTibcoSpotfire.vg2"/>
+					<Prp name="datetime" type="D" value="45197.5783596528"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="231"/>
+					<Prp name="object left" type="I" value="194"/>
+					<Prp name="image file name" type="S" value="visImage26.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="423"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="212"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="440"/>
+					<Prp name="object bottom" type="I" value="458"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageStLukeSLosTibcoSpotfire.vg2"/>
+					<Prp name="datetime" type="D" value="45195.5729282407"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="231"/>
+					<Prp name="object left" type="I" value="194"/>
+					<Prp name="image file name" type="S" value="tcvi9836254691288.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="423"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="224"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45197.3700278472"/>
+			<Prp name="remarks" type="S" value="A click at point (13, 12) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageStLukeSLosTibcoSpotfire.vg2&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://analyticsdev.guidehouse.com/spotfire/wp/analysis?file=/Healthcare/St%20Lukes/BITS/LOS/Dashboard/St.%20Luke%27s%20LOS&amp;waid=gt3OXb9fh0ivLzUAHtzVp-16123808d78b-g&amp;wavid=0&quot;).FindElement(&quot;//div[@id='sidenav_popout']//p[5]//*[name()='svg']&quot;))"/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage21_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="669"/>
+					<Prp name="object bottom" type="I" value="966"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageStLukeSLosTibcoSpotfire.panel5"/>
+					<Prp name="datetime" type="D" value="45197.5783072338"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="691"/>
+					<Prp name="object left" type="I" value="91"/>
+					<Prp name="image file name" type="S" value="visImage21.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="372"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="391"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="455"/>
+					<Prp name="object bottom" type="I" value="966"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageStLukeSLosTibcoSpotfire.panel5"/>
+					<Prp name="datetime" type="D" value="45195.5727777778"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="691"/>
+					<Prp name="object left" type="I" value="91"/>
+					<Prp name="image file name" type="S" value="tcvi9834996891281.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="372"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="575"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45197.3699754051"/>
+			<Prp name="remarks" type="S" value="A click at point (218, 216) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageStLukeSLosTibcoSpotfire.panel5&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://analyticsdev.guidehouse.com/spotfire/wp/analysis?file=/Healthcare/St%20Lukes/BITS/LOS/Dashboard/St.%20Luke%27s%20LOS&amp;waid=gt3OXb9fh0ivLzUAHtzVp-16123808d78b-g&amp;wavid=0&quot;).FindElement(&quot;//div[5]/div/div[3]/div/div/div[2]&quot;))"/>
+		</Node>
+		<Node name="message 8">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage27_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="582"/>
+					<Prp name="object bottom" type="I" value="1009"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageStLukeSLosTibcoSpotfire.panelBenchmarkLosSelector"/>
+					<Prp name="datetime" type="D" value="45197.5783648958"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="373"/>
+					<Prp name="object left" type="I" value="5"/>
+					<Prp name="image file name" type="S" value="visImage27.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="156"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="189"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="471"/>
+					<Prp name="object bottom" type="I" value="1009"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageStLukeSLosTibcoSpotfire.panelBenchmarkLosSelector"/>
+					<Prp name="datetime" type="D" value="45195.5729398148"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="373"/>
+					<Prp name="object left" type="I" value="5"/>
+					<Prp name="image file name" type="S" value="tcvi98363750912811.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="156"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="336"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45197.3700329167"/>
+			<Prp name="remarks" type="S" value="A click at point (134, 310) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageStLukeSLosTibcoSpotfire.panelBenchmarkLosSelector&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://analyticsdev.guidehouse.com/spotfire/wp/analysis?file=/Healthcare/St%20Lukes/BITS/LOS/Dashboard/St.%20Luke%27s%20LOS&amp;waid=gt3OXb9fh0ivLzUAHtzVp-16123808d78b-g&amp;wavid=0&quot;).FindElement(&quot;//div[contains(@class, 'table-container')]&quot;))"/>
+		</Node>
+		<Node name="message 21">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="21"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The property checkpoint passed: contentText equals (case-sensitive) &quot;LOS Dashboard&quot;."/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="line no" type="I" value="21"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45197.3701377083"/>
+			<Prp name="remarks" type="S" value="&lt;h3&gt;Result&lt;/h3&gt;&lt;span&gt;The property checkpoint &lt;img style = &quot;width: 14px; height: 14px; vertical-align: text-bottom; margin: 2px;&quot; src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH4wIUBiMun01WOAAAAlZJREFUWMPdly1s20AUx/+ODCptij0FGERrKhsEbF2mTQqoWsk8JIXugAOTkRiabTAwJWvZErAGriTcUqKCkq1KBwJcpZ0KDKr5Kk0qsOShWf64+CNzFWnH7Du/3//ee773jnFdF+scBax5sGkXEscWT6yBObENTImBe4cE5ossh11Oxh4v40BoSRzLX6WxyySFgDi2qJuaObKGmXamCCp6Uj9RSKyA8d2p25m3IrtNO4osh6PqAI1Sk8ksQDc19/j2MJc4t8td9KQ+kzoJ84QDwPHtIXRTc1N5YHx36r77sf8oGf/lxddIOAICiGOL2+db5qoxT5MTs/oikJiFkOsfDQ4A9w6BbmomNQeIY4tZf7W4neqVD3j5pBaZG1lDEMcWIwJOrIGZF3z8yoBe+YhxzaCK8LM8ARPbyA2+/fQ1AIBjeYxrBoosF1jnZ3kCpmS5ANoukuBxw88q+BOEZnTy5humb7/jU/VzZjhxbDQu5Iht/3NsNfQbPRBaVBFJ8MvfF1TbNw8LN1bA841KxGhYxKpwANjc2GJiBfx8uEZn3oq8/yviX+DUk3DzjHdpeaAIKo6qg7Q9Qyp4keVws2MHPbDLydTFI2tI9cSq8DDLE7DHy0s/SBKR1e1+lhcC4thi5eyZmdTlhMORFQ4A1zu/vILkeYBj+StFUGM/DHtiFbgiqPBXw5XKsSKoeF/W0Jm3MsFp5XjtDUnkHGiUmky73M0d3i53qc0p9SDqSf1cRcQ1pWtvy2OLUaPUZGb1hZT0dyxL1Fl9IcXBU92M1n41++9vx38AoNJrUz8FYVwAAAAASUVORK5CYII=&quot;&gt;&lt;b&gt;passed&lt;/b&gt;: Aliases.browser.pageStLu...tfire.panelLosDashboard.contentText&lt;b&gt; equals (case-sensitive) &lt;/b&gt;&quot;LOS Dashboard&quot;.&lt;/span&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;div class=&quot;table-border full-width&quot;&gt;&lt;table class=&quot;table-borderless table-vertical&quot;&gt;&lt;tr&gt;&lt;th style=&quot;width: 16em;&quot;&gt;Object&lt;/th&gt;&lt;td&gt;&lt;a href='lnamemapping://{E9C6B58D-4CCC-4389-9C93-1960929A2A94}.{89483D31-C77B-413C-9346-73DAE6732AB7}'&gt;Aliases.browser.pageStLukeSLosTibcoSpotfire.panelLosDashboard&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;td&gt;contentText&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Condition&lt;/th&gt;&lt;td&gt;equals (case-sensitive)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Actual value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;&quot;LOS Dashboard&quot;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Expected value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;&quot;LOS Dashboard&quot;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"/>
+		</Node>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage20_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="490"/>
+					<Prp name="object bottom" type="I" value="514"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageStLukeSLosTibcoSpotfire.panelLosDashboard"/>
+					<Prp name="datetime" type="D" value="45197.5782872338"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="683"/>
+					<Prp name="object left" type="I" value="240"/>
+					<Prp name="image file name" type="S" value="visImage20.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="467"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="461"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="493"/>
+					<Prp name="object bottom" type="I" value="514"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageStLukeSLosTibcoSpotfire.panelLosDashboard"/>
+					<Prp name="datetime" type="D" value="45195.5727314815"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="683"/>
+					<Prp name="object left" type="I" value="240"/>
+					<Prp name="image file name" type="S" value="tcvi9834548491280.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="467"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="483"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45197.3699554745"/>
+			<Prp name="remarks" type="S" value="A click at point (161, 17) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageStLukeSLosTibcoSpotfire.panelLosDashboard&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://analyticsdev.guidehouse.com/spotfire/wp/analysis?file=/Healthcare/St%20Lukes/BITS/LOS/Dashboard/St.%20Luke%27s%20LOS&amp;waid=gt3OXb9fh0ivLzUAHtzVp-16123808d78b-g&amp;wavid=0&quot;).FindElement(&quot;//div[.='LOS Dashboard']&quot;))"/>
+		</Node>
+		<Node name="message 11">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage30_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="582"/>
+					<Prp name="object bottom" type="I" value="602"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageStLukeSLosTibcoSpotfire.panelSoi"/>
+					<Prp name="datetime" type="D" value="45197.5783831829"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="376"/>
+					<Prp name="object left" type="I" value="26"/>
+					<Prp name="image file name" type="S" value="visImage30.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="562"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="201"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="541"/>
+					<Prp name="object bottom" type="I" value="569"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageStLukeSLosTibcoSpotfire.panelSoi"/>
+					<Prp name="datetime" type="D" value="45195.5730324074"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="376"/>
+					<Prp name="object left" type="I" value="26"/>
+					<Prp name="image file name" type="S" value="tcvi98372203912814.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="529"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="116"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45197.3700512731"/>
+			<Prp name="remarks" type="S" value="A click at point (127, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageStLukeSLosTibcoSpotfire.panelSoi&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://analyticsdev.guidehouse.com/spotfire/wp/analysis?file=/Healthcare/St%20Lukes/BITS/LOS/Dashboard/St.%20Luke%27s%20LOS&amp;waid=gt3OXb9fh0ivLzUAHtzVp-16123808d78b-g&amp;wavid=0&quot;).FindElement(&quot;#SOI&quot;))"/>
+		</Node>
+		<Node name="message 16">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage35_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="194"/>
+					<Prp name="object bottom" type="I" value="216"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageStLukeSLosTibcoSpotfire.buttonApplyMarkingsToFilter"/>
+					<Prp name="datetime" type="D" value="45197.5784283449"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="1603"/>
+					<Prp name="object left" type="I" value="1328"/>
+					<Prp name="image file name" type="S" value="visImage35.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="172"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="1465"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="196"/>
+					<Prp name="object bottom" type="I" value="216"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageStLukeSLosTibcoSpotfire.buttonApplyMarkingsToFilter"/>
+					<Prp name="datetime" type="D" value="45195.5732291667"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="1603"/>
+					<Prp name="object left" type="I" value="1328"/>
+					<Prp name="image file name" type="S" value="tcvi98388890912820.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="172"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="1437"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45197.3700971643"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageStLukeSLosTibcoSpotfire.buttonApplyMarkingsToFilter&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://analyticsdev.guidehouse.com/spotfire/wp/analysis?file=/Healthcare/St%20Lukes/BITS/LOS/Dashboard/St.%20Luke%27s%20LOS&amp;waid=gt3OXb9fh0ivLzUAHtzVp-16123808d78b-g&amp;wavid=0&quot;).FindElement(&quot;//input[@value='Apply Markings to Filter']&quot;))"/>
+		</Node>
+		<Node name="message 10">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage29_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="874"/>
+					<Prp name="object bottom" type="I" value="884"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageStLukeSLosTibcoSpotfire.panelNonOutlier"/>
+					<Prp name="datetime" type="D" value="45197.5783766667"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="175"/>
+					<Prp name="object left" type="I" value="98"/>
+					<Prp name="image file name" type="S" value="visImage29.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="864"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="136"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="308"/>
+					<Prp name="object bottom" type="I" value="324"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageStLukeSLosTibcoSpotfire.panelNonOutlier"/>
+					<Prp name="datetime" type="D" value="45195.5730092593"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="175"/>
+					<Prp name="object left" type="I" value="98"/>
+					<Prp name="image file name" type="S" value="tcvi98369953912813.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="304"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="103"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45197.3700446875"/>
+			<Prp name="remarks" type="S" value="A click at point (28, 7) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageStLukeSLosTibcoSpotfire.panelNonOutlier&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://analyticsdev.guidehouse.com/spotfire/wp/analysis?file=/Healthcare/St%20Lukes/BITS/LOS/Dashboard/St.%20Luke%27s%20LOS&amp;waid=gt3OXb9fh0ivLzUAHtzVp-16123808d78b-g&amp;wavid=0&quot;).FindElement(&quot;//div[text()='Non-Outlier']&quot;))"/>
+		</Node>
+		<Node name="message 14">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage33_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="227"/>
+					<Prp name="object bottom" type="I" value="259"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageStLukeSLosTibcoSpotfire.textnodeFilters"/>
+					<Prp name="datetime" type="D" value="45197.5784117477"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="411"/>
+					<Prp name="object left" type="I" value="380"/>
+					<Prp name="image file name" type="S" value="visImage33.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="196"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="395"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="235"/>
+					<Prp name="object bottom" type="I" value="259"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageStLukeSLosTibcoSpotfire.textnodeFilters"/>
+					<Prp name="datetime" type="D" value="45195.5731828704"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="411"/>
+					<Prp name="object left" type="I" value="380"/>
+					<Prp name="image file name" type="S" value="tcvi98384812912818.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="196"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="389"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45197.3700800347"/>
+			<Prp name="remarks" type="S" value="A click at point (11, 23) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageStLukeSLosTibcoSpotfire.textnodeFilters&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://analyticsdev.guidehouse.com/spotfire/wp/analysis?file=/Healthcare/St%20Lukes/BITS/LOS/Dashboard/St.%20Luke%27s%20LOS&amp;waid=gt3OXb9fh0ivLzUAHtzVp-16123808d78b-g&amp;wavid=0&quot;).FindElement(&quot;//span[.='Filters']&quot;))"/>
+		</Node>
+		<Node name="message 13">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="13"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage32_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="234"/>
+					<Prp name="object bottom" type="I" value="251"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageStLukeSLosTibcoSpotfire.buttonResetFilter"/>
+					<Prp name="datetime" type="D" value="45197.5784049653"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="13"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="166"/>
+					<Prp name="object left" type="I" value="28"/>
+					<Prp name="image file name" type="S" value="visImage32.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="217"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="97"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="233"/>
+					<Prp name="object bottom" type="I" value="251"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageStLukeSLosTibcoSpotfire.buttonResetFilter"/>
+					<Prp name="datetime" type="D" value="45195.5731018518"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="13"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="166"/>
+					<Prp name="object left" type="I" value="28"/>
+					<Prp name="image file name" type="S" value="tcvi98377921912817.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="217"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="90"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="13"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45197.370073588"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageStLukeSLosTibcoSpotfire.buttonResetFilter&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://analyticsdev.guidehouse.com/spotfire/wp/analysis?file=/Healthcare/St%20Lukes/BITS/LOS/Dashboard/St.%20Luke%27s%20LOS&amp;waid=gt3OXb9fh0ivLzUAHtzVp-16123808d78b-g&amp;wavid=0&quot;).FindElement(&quot;//input[@value='Reset Filter']&quot;))"/>
+		</Node>
+		<Node name="message 12">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage31_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="735"/>
+					<Prp name="object bottom" type="I" value="755"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageStLukeSLosTibcoSpotfire.textnodeUiAccordionAccordionHead5"/>
+					<Prp name="datetime" type="D" value="45197.5783935417"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="376"/>
+					<Prp name="object left" type="I" value="26"/>
+					<Prp name="image file name" type="S" value="visImage31.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="715"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="201"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="706"/>
+					<Prp name="object bottom" type="I" value="722"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageStLukeSLosTibcoSpotfire.textnodeUiAccordionAccordionHead5"/>
+					<Prp name="datetime" type="D" value="45195.5730555556"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="376"/>
+					<Prp name="object left" type="I" value="26"/>
+					<Prp name="image file name" type="S" value="tcvi98373968912815.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="682"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="139"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45197.3700616319"/>
+			<Prp name="remarks" type="S" value="A click at point (127, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageStLukeSLosTibcoSpotfire.textnodeUiAccordionAccordionHead5&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://analyticsdev.guidehouse.com/spotfire/wp/analysis?file=/Healthcare/St%20Lukes/BITS/LOS/Dashboard/St.%20Luke%27s%20LOS&amp;waid=gt3OXb9fh0ivLzUAHtzVp-16123808d78b-g&amp;wavid=0&quot;).FindElement(&quot;#ui-accordion-accordion-header-10&quot;))"/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage22_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="225"/>
+					<Prp name="object bottom" type="I" value="294"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageStLukeSLosTibcoSpotfire.textnodeSubscribeTab"/>
+					<Prp name="datetime" type="D" value="45197.5783159375"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="34"/>
+					<Prp name="object left" type="I" value="-5"/>
+					<Prp name="image file name" type="S" value="visImage22.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="156"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="14"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="259"/>
+					<Prp name="object bottom" type="I" value="294"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageStLukeSLosTibcoSpotfire.textnodeSubscribeTab"/>
+					<Prp name="datetime" type="D" value="45195.5728240741"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="34"/>
+					<Prp name="object left" type="I" value="-5"/>
+					<Prp name="image file name" type="S" value="tcvi9835339091282.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="156"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="33"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45197.369984838"/>
+			<Prp name="remarks" type="S" value="A click at point (14, 50) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageStLukeSLosTibcoSpotfire.textnodeSubscribeTab&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://analyticsdev.guidehouse.com/spotfire/wp/analysis?file=/Healthcare/St%20Lukes/BITS/LOS/Dashboard/St.%20Luke%27s%20LOS&amp;waid=gt3OXb9fh0ivLzUAHtzVp-16123808d78b-g&amp;wavid=0&quot;).FindElement(&quot;#subscribe_tab&quot;))"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{E53BFDA0-7BD2-4E1C-B88A-45D6B104E17C}"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 9">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage28_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="841"/>
+					<Prp name="object bottom" type="I" value="862"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageStLukeSLosTibcoSpotfire.textnodeUiAccordionAccordionHead4"/>
+					<Prp name="datetime" type="D" value="45197.5783704745"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="332"/>
+					<Prp name="object left" type="I" value="26"/>
+					<Prp name="image file name" type="S" value="visImage28.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="822"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="179"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="222"/>
+					<Prp name="object bottom" type="I" value="231"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageStLukeSLosTibcoSpotfire.textnodeUiAccordionAccordionHead4"/>
+					<Prp name="datetime" type="D" value="45195.5729861111"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="332"/>
+					<Prp name="object left" type="I" value="26"/>
+					<Prp name="image file name" type="S" value="tcvi98367828912812.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="191"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="101"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45197.3700387384"/>
+			<Prp name="remarks" type="S" value="A click at point (111, 14) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageStLukeSLosTibcoSpotfire.textnodeUiAccordionAccordionHead4&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://analyticsdev.guidehouse.com/spotfire/wp/analysis?file=/Healthcare/St%20Lukes/BITS/LOS/Dashboard/St.%20Luke%27s%20LOS&amp;waid=gt3OXb9fh0ivLzUAHtzVp-16123808d78b-g&amp;wavid=0&quot;).FindElement(&quot;#ui-accordion-accordion-header-4&quot;))"/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage23_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="234"/>
+					<Prp name="object bottom" type="I" value="251"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageStLukeSLosTibcoSpotfire.buttonResetMarking"/>
+					<Prp name="datetime" type="D" value="45197.5783263194"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="317"/>
+					<Prp name="object left" type="I" value="179"/>
+					<Prp name="image file name" type="S" value="visImage23.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="217"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="208"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="237"/>
+					<Prp name="object bottom" type="I" value="251"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageStLukeSLosTibcoSpotfire.buttonResetMarking"/>
+					<Prp name="datetime" type="D" value="45195.5728472222"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="329"/>
+					<Prp name="object left" type="I" value="191"/>
+					<Prp name="image file name" type="S" value="tcvi9835614091283.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="217"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="225"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45197.369994838"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageStLukeSLosTibcoSpotfire.buttonResetMarking&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://analyticsdev.guidehouse.com/spotfire/wp/analysis?file=/Healthcare/St%20Lukes/BITS/LOS/Dashboard/St.%20Luke%27s%20LOS&amp;waid=gt3OXb9fh0ivLzUAHtzVp-16123808d78b-g&amp;wavid=0&quot;).FindElement(&quot;//input[@value='Reset Marking']&quot;))"/>
+		</Node>
+		<Node name="message 17">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="17"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage36_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="227"/>
+					<Prp name="object bottom" type="I" value="259"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageStLukeSLosTibcoSpotfire.textnodeFilters"/>
+					<Prp name="datetime" type="D" value="45197.5784379514"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="17"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="33"/>
+					<Prp name="object left" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage36.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="196"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="17"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="250"/>
+					<Prp name="object bottom" type="I" value="259"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageStLukeSLosTibcoSpotfire.textnodeFilters"/>
+					<Prp name="datetime" type="D" value="45195.5733101852"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="17"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="33"/>
+					<Prp name="object left" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="tcvi98396031912821.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="196"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="23"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="17"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45197.3701059838"/>
+			<Prp name="remarks" type="S" value="A click at point (11, 23) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageStLukeSLosTibcoSpotfire.textnodeFilters&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://analyticsdev.guidehouse.com/spotfire/wp/analysis?file=/Healthcare/St%20Lukes/BITS/LOS/Dashboard/St.%20Luke%27s%20LOS&amp;waid=gt3OXb9fh0ivLzUAHtzVp-16123808d78b-g&amp;wavid=0&quot;).FindElement(&quot;//span[.='Filters']&quot;))"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 20">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="20"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage39_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="204"/>
+					<Prp name="object bottom" type="I" value="213"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageStLukeSLosTibcoSpotfire.linkModuleHome"/>
+					<Prp name="datetime" type="D" value="45197.5784621296"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="20"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="206"/>
+					<Prp name="object left" type="I" value="98"/>
+					<Prp name="image file name" type="S" value="visImage39.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="195"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="152"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="click point y" type="I" value="207"/>
+					<Prp name="object bottom" type="I" value="213"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageStLukeSLosTibcoSpotfire.linkModuleHome"/>
+					<Prp name="datetime" type="D" value="45195.5734375"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="20"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="206"/>
+					<Prp name="object left" type="I" value="98"/>
+					<Prp name="image file name" type="S" value="tcvi98406484912824.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="195"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="167"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="20"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="20"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45197.3701306597"/>
+			<Prp name="remarks" type="S" value="A click at point (39, 7) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageStLukeSLosTibcoSpotfire.linkModuleHome&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://analyticsdev.guidehouse.com/spotfire/wp/analysis?file=/Healthcare/St%20Lukes/BITS/LOS/Dashboard/St.%20Luke%27s%20LOS&amp;waid=gt3OXb9fh0ivLzUAHtzVp-16123808d78b-g&amp;wavid=0&quot;).FindElement(&quot;//a[.='Module Home']&quot;))"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

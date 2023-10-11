@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<folder name="Components" />
+		<folder name="Pages" />
+		<folder name="Dashboard">
+			<child name="LOS_Dashboard" key="{E53BFDA0-7BD2-4E1C-B88A-45D6B104E17C}" path="LOS_Dashboard.tcKDTest" />
+			<child name="SelectBenchmark_OutlierFlag" key="{CB38CEDF-39D6-4B88-BC89-F7483D6D5955}" path="SelectBenchmark_OutlierFlag.tcKDTest" />
+		</folder>
+		<folder name="PageLogin">
+			<child name="PageLoginAttempt" key="{A9216ABD-180A-47E2-81BF-A8D4FF2B12E6}" path="PageLoginAttempt.tcKDTest" />
+			<child name="PageLogOutAttempt" key="{CD44DFB5-8646-4AE0-B18D-D6364892E9D0}" path="PageLogOutAttempt.tcKDTest" />
+		</folder>
+		<folder name="UtilsBrowser">
+			<child name="CloseEdge" key="{0C64ABA0-2E1D-46FA-8431-93909234B35D}" path="CloseEdge.tcKDTest" />
+			<child name="StartEdge" key="{78CCE34F-9BEA-41A5-AC9A-212EBCBEF190}" path="StartEdge.tcKDTest" />
+		</folder>
+	</children>
+</Root>

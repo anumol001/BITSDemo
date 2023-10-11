@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{AF0E4097-5ADA-462B-B691-C2D6BFD868DF}">
+	<children>
+		<child name="TestCompleteBITSDemo" key="{DCF093C2-B2C1-4581-9DD7-0A845073DC8D}" path="TestCompleteBITSDemo\TestCompleteBITSDemo.mds" />
+	</children>
+	<testItems key="{A5B2A687-5117-426F-B9C2-AF198DDFCA5F}">
+		<children>
+			<testItem key="{DCF093C2-B2C1-4581-9DD7-0A845073DC8D}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{0D9496CB-2AAC-45F2-98DC-FCE726FB5E1E}" />
+	<analysis key="{45FF1E07-DC0C-496A-B127-A8EBC0A5605E}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

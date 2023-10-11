@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{AE110125-A223-4FEF-8753-C854CD929603}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{8BF0AE82-144E-4C21-B908-17D771071564}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{EF5E6D02-5E78-47A3-9CB5-5EDF5D2CC5E8}">
+								<Image FileName="-23815166" Left="-9" Top="-9" Right="1929" Bottom="1039" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageLogin" Key="{A95E1EDC-FBCF-4E4E-BFCF-EF3C1FB5D441}">
+								<Image FileName="-23815166" Left="5" Top="87" Right="1914" Bottom="1024" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://analyticsdev.guidehouse.com/spotfire/resources/custom-login/guidehouselogin.html*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="form" Key="{8D5DD76C-45FD-4579-B016-FEEA52A71F98}">
+										<Image FileName="-23815166" Left="479" Top="293" Right="1442" Bottom="558" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[@name=&apos;form&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Keep me logged in&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;ng-valid&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;tssCustomLoginAppController&apos;]//form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxInputemail3" Key="{AE9AA706-E5C1-4DEE-A547-995C7705BA7B}">
+										<Image FileName="-23815166" Left="816" Top="314" Right="1105" Bottom="355" />
+										<TypeInfo Item0="{BFB981AD-8E52-4EFB-BEAF-ADE45A7796C2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#inputEmail3" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;username&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;text&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxInputpassword3" Key="{8656C79D-F416-4DE7-A2C6-E409E587BE7D}">
+										<Image FileName="1522467169" Left="816" Top="362" Right="1105" Bottom="403" />
+										<TypeInfo Item0="{BFB981AD-8E52-4EFB-BEAF-ADE45A7796C2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#inputPassword3" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/input[contains(@class, &apos;ng-empty&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonLogIn" Key="{F5BA1927-3083-4699-B38F-761409B5C1DC}">
+										<Image FileName="2128635775" Left="857" Top="460" Right="1063" Bottom="508" />
+										<TypeInfo Item0="{8E5806F3-FB4D-46B2-90CD-3DAC6F4CEB1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(., &apos;Log in&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;LoginButton&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;tssCustomLoginAppController&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageStLukeSLosTibcoSpotfire" Key="{0E66371C-76D0-4A82-9EB0-38F1EDE570B1}">
+								<Image FileName="1672710257" Left="5" Top="87" Right="1914" Bottom="1024" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://analyticsdev.guidehouse.com/spotfire/wp/analysis*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelUser" Key="{C62BD080-AE35-4BA3-B54E-86DB2A4515AE}">
+										<Image FileName="1672710257" Left="635" Top="87" Right="701" Bottom="131" />
+										<TypeInfo Item0="{8A875429-AA09-4BE9-A474-E4DA6574D5BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;User&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@title=&apos;User&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelLogOut" Key="{A7F6EA86-8532-4C9D-A30A-31E6492562A3}">
+										<Image FileName="308062488" Left="690" Top="192" Right="775" Bottom="214" />
+										<TypeInfo Item0="{8A875429-AA09-4BE9-A474-E4DA6574D5BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;Log out&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@title=&apos;Log out&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[contains(@class, &apos;contextMenuItemLabel&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonOk" Key="{D10FF5D8-07CD-4060-B5E0-CED5A276BFAF}">
+										<Image FileName="121446444" Left="1025" Top="611" Right="1087" Bottom="655" />
+										<TypeInfo Item0="{8E5806F3-FB4D-46B2-90CD-3DAC6F4CEB1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;OK&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelSelectBenchmarkOutlierFlag" Key="{C08DF02C-F280-4819-A712-50EA995C4F58}">
+										<Image FileName="-1571502572" Left="1137" Top="415" Right="1580" Bottom="462" />
+										<TypeInfo Item0="{8A875429-AA09-4BE9-A474-E4DA6574D5BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Select Benchmark &amp; Outlier Flag&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;item-3&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel183" Key="{20BEC8DC-87A4-4CFF-BC0E-4734E430FEB0}">
+										<Image FileName="33269191" Left="937" Top="342" Right="1079" Bottom="367" />
+										<TypeInfo Item0="{8A875429-AA09-4BE9-A474-E4DA6574D5BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;1.83&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeFilters" Key="{E77F6641-2AD6-45C9-A5C2-B469174D0C32}">
+										<Image FileName="1722186259" Left="2" Top="196" Right="33" Bottom="259" />
+										<TypeInfo Item0="{8A875429-AA09-4BE9-A474-E4DA6574D5BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Filters&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[@id=&apos;subscribe_tab&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//span/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonResetMarking" Key="{E2E57241-AAEB-4138-B3BA-28D53CDB3AA3}">
+										<Image FileName="1293486744" Left="191" Top="217" Right="329" Bottom="251" />
+										<TypeInfo Item0="{8E5806F3-FB4D-46B2-90CD-3DAC6F4CEB1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;Reset Marking&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeUiAccordionAccordionHead" Key="{D6E3B24D-9427-4F09-B67E-1D35FB06EDEC}">
+										<Image FileName="1385466207" Left="26" Top="417" Right="332" Bottom="457" />
+										<TypeInfo Item0="{8A875429-AA09-4BE9-A474-E4DA6574D5BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#ui-accordion-accordion-header-1" />
+											</Selector>
+											<Selector>
+												<Value Value="//strong[.=&apos;Discharge Date&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeUiAccordionAccordionHead2" Key="{472A0B5A-56A0-464A-95F4-4D179DB4C839}">
+										<Image FileName="140452192" Left="26" Top="558" Right="376" Bottom="598" />
+										<TypeInfo Item0="{8A875429-AA09-4BE9-A474-E4DA6574D5BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#ui-accordion-accordion-header-2" />
+											</Selector>
+											<Selector>
+												<Value Value="//strong[contains(text(), &apos;Facility&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelSoi" Key="{BA3043AB-B932-45DE-A01D-C4D1353E84D5}">
+										<Image FileName="-53848162" Left="26" Top="950" Right="376" Bottom="990" />
+										<TypeInfo Item0="{8A875429-AA09-4BE9-A474-E4DA6574D5BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#SOI" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;SOI&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;SOI&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel" Key="{1675DFC1-465B-4E29-A510-B1A7952EAEBC}">
+										<Image FileName="1359278144" Left="75" Top="508" Right="92" Bottom="525" />
+										<TypeInfo Item0="{8A875429-AA09-4BE9-A474-E4DA6574D5BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;sf-element&apos;)]/div[contains(@class, &apos;sf-element&apos;)]//div[@role=&apos;tablist&apos;]/p[@id=&apos;ui-accordion-accordion-panel-8&apos;]//div[contains(@class, &apos;sf-element&apos;)]//div[contains(@class, &apos;sf-element&apos;)]//div[contains(@class, &apos;sf-element&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel1" Key="{2979266B-4E38-43B4-8E63-DC564C872343}">
+										<Image FileName="879382585" Left="75" Top="531" Right="106" Bottom="552" />
+										<TypeInfo Item0="{8A875429-AA09-4BE9-A474-E4DA6574D5BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[@id=&apos;ui-accordion-accordion-panel-8&apos;]//div[2]/div[contains(@class, &apos;flex-item&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonResetFilter" Key="{FF98A89F-AF3A-4E3F-9EAD-FA37EDCA458B}">
+										<Image FileName="-1911136561" Left="28" Top="217" Right="166" Bottom="251" />
+										<TypeInfo Item0="{8E5806F3-FB4D-46B2-90CD-3DAC6F4CEB1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;Reset Filter&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel2" Key="{69113B02-CFBE-473F-9152-9778F470D2C0}">
+										<Image FileName="-60434021" Left="1250" Top="602" Right="1459" Bottom="966" />
+										<TypeInfo Item0="{8A875429-AA09-4BE9-A474-E4DA6574D5BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[6]/div/div[2]/div/div/div[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonApplyMarkingsToFilter" Key="{D6B0C933-D1CA-4AE3-AB08-60DF9EB7CE10}">
+										<Image FileName="1040684942" Left="1328" Top="173" Right="1603" Bottom="217" />
+										<TypeInfo Item0="{8E5806F3-FB4D-46B2-90CD-3DAC6F4CEB1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;Apply Markings to Filter&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span/input[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td//input[contains(@class, &apos;sf-element&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkModuleHome" Key="{458DCCD1-4E72-446C-8810-F33BC6CF9F36}">
+										<Image FileName="1984743430" Left="98" Top="195" Right="206" Bottom="213" />
+										<TypeInfo Item0="{8A875429-AA09-4BE9-A474-E4DA6574D5BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Module Home&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelLosDashboard" Key="{5D42B9E2-4552-4BF3-8DF7-D30B71E669CE}">
+										<Image FileName="501391929" Left="240" Top="467" Right="683" Bottom="514" />
+										<TypeInfo Item0="{8A875429-AA09-4BE9-A474-E4DA6574D5BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;LOS Dashboard&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;item-4&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel3" Key="{9F9CEE47-AF6B-4700-B78B-1EF9CC2C9458}">
+										<Image FileName="1982354071" Left="91" Top="372" Right="691" Bottom="966" />
+										<TypeInfo Item0="{8A875429-AA09-4BE9-A474-E4DA6574D5BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[5]//div[3]//div[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vg" Key="{DF47AE2D-EF82-48C5-9FFB-43B5A7481B20}">
+										<Image FileName="1619771757" Left="263" Top="320" Right="300" Bottom="355" />
+										<TypeInfo Item0="{8A875429-AA09-4BE9-A474-E4DA6574D5BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;sidenav_popout&apos;]//p[3]//*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p[3]//*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vg2" Key="{553D0698-89FA-46EF-9623-5804F73A6703}">
+										<Image FileName="697849001" Left="194" Top="423" Right="231" Bottom="458" />
+										<TypeInfo Item0="{8A875429-AA09-4BE9-A474-E4DA6574D5BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;sidenav_popout&apos;]//p[5]//*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p[5]//*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vg3" Key="{ABD2E11F-C4E1-4D01-B975-66FE69990671}">
+										<Image FileName="-204730848" Left="194" Top="526" Right="231" Bottom="561" />
+										<TypeInfo Item0="{8A875429-AA09-4BE9-A474-E4DA6574D5BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;sidenav_popout&apos;]//p[7]//*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p[7]//*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeUiAccordionAccordionHead3" Key="{994E14F1-4C45-492D-8854-AE9DB05BFD3D}">
+										<Image FileName="1040589661" Left="26" Top="327" Right="332" Bottom="367" />
+										<TypeInfo Item0="{8A875429-AA09-4BE9-A474-E4DA6574D5BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#ui-accordion-accordion-header-3" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelAll1Values" Key="{3140743B-6D6F-45C8-98BD-7BA5E79A0B59}">
+										<Image FileName="-476830381" Left="98" Top="412" Right="185" Bottom="432" />
+										<TypeInfo Item0="{8A875429-AA09-4BE9-A474-E4DA6574D5BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;(All) 1 values&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;tablist&apos;]/p[@id=&apos;ui-accordion-accordion-panel-3&apos;]//div//div[contains(@class, &apos;sf-element-text-box&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeUiAccordionAccordionHead4" Key="{63DB7456-320B-4F6A-8669-692152125840}">
+										<Image FileName="-346265472" Left="26" Top="647" Right="376" Bottom="687" />
+										<TypeInfo Item0="{8A875429-AA09-4BE9-A474-E4DA6574D5BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#ui-accordion-accordion-header-4" />
+											</Selector>
+											<Selector>
+												<Value Value="//strong[.=&apos;Outlier Flag&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeUiAccordionAccordionHead5" Key="{96575E46-17BA-4647-A52B-F37E9A550802}">
+										<Image FileName="2121092116" Left="26" Top="750" Right="376" Bottom="790" />
+										<TypeInfo Item0="{8A875429-AA09-4BE9-A474-E4DA6574D5BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#ui-accordion-accordion-header-10" />
+											</Selector>
+											<Selector>
+												<Value Value="//strong[.=&apos;Discharge Unit&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelAprdrgdesc" Key="{3A8CEF99-4DC8-4ECA-86F4-AE414EA9E9EB}">
+										<Image FileName="-2005185563" Left="26" Top="498" Right="376" Bottom="538" />
+										<TypeInfo Item0="{8A875429-AA09-4BE9-A474-E4DA6574D5BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#APRDRGDESC" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;APR-DRG + Desc&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelAprdrg" Key="{5B499376-B1DC-497A-9A70-E8135BC0A246}">
+										<Image FileName="1077711917" Left="26" Top="455" Right="376" Bottom="495" />
+										<TypeInfo Item0="{8A875429-AA09-4BE9-A474-E4DA6574D5BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#APRDRG" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;APR-DRG Service Line&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;APRDRG&apos;)][contains(@class, &apos;ui-corner-all&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeUiAccordionAccordionHead6" Key="{534215AF-601F-4B02-BB4D-F8248E7535D2}">
+										<Image FileName="63573252" Left="26" Top="412" Right="376" Bottom="452" />
+										<TypeInfo Item0="{8A875429-AA09-4BE9-A474-E4DA6574D5BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#ui-accordion-accordion-header-5" />
+											</Selector>
+											<Selector>
+												<Value Value="//strong[.=&apos;COVID Flag&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel4" Key="{92D22A5D-790C-4F0F-A37A-29A35AB8C3BF}">
+										<Image FileName="1387819861" Left="1088" Top="792" Right="1851" Bottom="967" />
+										<TypeInfo Item0="{8A875429-AA09-4BE9-A474-E4DA6574D5BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[3]/div/div[2]/div/div/div[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel5" Key="{46F94FBD-08C1-4844-8D23-904D2ECE9185}">
+										<Image FileName="147863236" Left="91" Top="372" Right="691" Bottom="966" />
+										<TypeInfo Item0="{8A875429-AA09-4BE9-A474-E4DA6574D5BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[5]/div/div[3]/div/div/div[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSubscribeTab" Key="{193423B2-78AF-4138-BF1B-61461FE121FD}">
+										<Image FileName="-695856278" Left="-5" Top="156" Right="34" Bottom="294" />
+										<TypeInfo Item0="{8A875429-AA09-4BE9-A474-E4DA6574D5BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#subscribe_tab" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(., &apos;Filters&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;sidenav_popout&apos;]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelAprDrgGmlos" Key="{7A0EB9E4-E09B-4FBB-A3A4-38D572328688}">
+										<Image FileName="-264458582" Left="27" Top="319" Right="272" Bottom="356" />
+										<TypeInfo Item0="{8A875429-AA09-4BE9-A474-E4DA6574D5BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;APR-DRG GMLOS&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p//div[@title=&apos;APR-DRG GMLOS&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p[3]//div[contains(@class, &apos;sf-element-text-box&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAprDrgGmlos" Key="{CF58263A-0BFD-4C14-B479-C901D95837A8}">
+										<Image FileName="-1161419281" Left="26" Top="318" Right="332" Bottom="357" />
+										<TypeInfo Item0="{8A875429-AA09-4BE9-A474-E4DA6574D5BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[.=&apos;APR-DRG GMLOS&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelBenchmarkLosSelector" Key="{2B24A1E1-6C4D-4F06-878A-52606C238A1D}">
+										<Image FileName="-1849256751" Left="5" Top="156" Right="373" Bottom="1009" />
+										<TypeInfo Item0="{8A875429-AA09-4BE9-A474-E4DA6574D5BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;table-container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;sidenav_popout&apos;]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelSystem" Key="{522C004B-B148-4FBE-B1F4-52D07F75B324}">
+										<Image FileName="-1749933422" Left="27" Top="422" Right="203" Bottom="459" />
+										<TypeInfo Item0="{8A875429-AA09-4BE9-A474-E4DA6574D5BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;System&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@title=&apos;System&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p[5]//div[contains(@class, &apos;sf-element-text-box&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSystem" Key="{52F96EC5-0E6C-4D3B-9C50-21669E576B94}">
+										<Image FileName="659324954" Left="26" Top="421" Right="332" Bottom="460" />
+										<TypeInfo Item0="{8A875429-AA09-4BE9-A474-E4DA6574D5BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[.=&apos;System&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel6" Key="{434632BE-AD15-45C6-8EC9-0C1920218AA0}">
+										<Image FileName="-1168257942" Left="1095" Top="591" Right="1851" Bottom="751" />
+										<TypeInfo Item0="{8A875429-AA09-4BE9-A474-E4DA6574D5BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/div/div[2]/div/div/div[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSystemFacility" Key="{901A4618-6989-4B09-85E4-2E15B34EEB3E}">
+										<Image FileName="25525059" Left="26" Top="375" Right="332" Bottom="404" />
+										<TypeInfo Item0="{8A875429-AA09-4BE9-A474-E4DA6574D5BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[.=&apos;System/Facility&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeServiceLine" Key="{8F8531BB-12B0-486C-87A4-35EEC6837383}">
+										<Image FileName="-1115038792" Left="26" Top="524" Right="332" Bottom="563" />
+										<TypeInfo Item0="{8A875429-AA09-4BE9-A474-E4DA6574D5BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[.=&apos;Service Line&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{A94F3907-5D64-439B-A5B4-E4E0585689D5}">
+										<Image FileName="-1715874560" Left="79" Top="423" Right="89" Bottom="433" />
+										<TypeInfo Item0="{8A875429-AA09-4BE9-A474-E4DA6574D5BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[@id=&apos;ui-accordion-accordion-panel-4&apos;]//div[2]//div[2]//*[name()=&apos;svg&apos;]/*[name()=&apos;g&apos;]/*[name()=&apos;path&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;tablist&apos;]/p[@id=&apos;ui-accordion-accordion-panel-4&apos;]//div[2]//div[2]//*[name()=&apos;svg&apos;]/*[name()=&apos;g&apos;]/*[name()=&apos;path&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHome" Key="{57DD75F2-1FCD-4BE7-AA13-274C85CD58C7}">
+										<Image FileName="-873511539" Left="26" Top="182" Right="72" Bottom="200" />
+										<TypeInfo Item0="{8A875429-AA09-4BE9-A474-E4DA6574D5BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//font[contains(text(), &apos;Home&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;StartPage.aspx&apos;)]/font" />
+											</Selector>
+											<Selector>
+												<Value Value="//a/font" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel18385" Key="{5F446211-6AA2-4915-8D36-EA23C56396BE}">
+										<Image FileName="-964852044" Left="1150" Top="495" Right="1454" Bottom="520" />
+										<TypeInfo Item0="{8A875429-AA09-4BE9-A474-E4DA6574D5BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;18,385&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vg4" Key="{7BF8E462-88BA-4606-8964-FDA2BD1DCCC4}">
+										<Image FileName="-1086749609" Left="76" Top="428" Right="91" Bottom="443" />
+										<TypeInfo Item0="{8A875429-AA09-4BE9-A474-E4DA6574D5BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[@id=&apos;ui-accordion-accordion-panel-8&apos;]//div[2]//div//div//*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;tablist&apos;]/p[@id=&apos;ui-accordion-accordion-panel-8&apos;]//div[2]//*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vg5" Key="{C20DD9BE-64D7-4C96-862C-A9376D0B8C61}">
+										<Image FileName="797686249" Left="76" Top="455" Right="91" Bottom="470" />
+										<TypeInfo Item0="{8A875429-AA09-4BE9-A474-E4DA6574D5BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[@id=&apos;ui-accordion-accordion-panel-8&apos;]//div[2]//div//div[2]//*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;tablist&apos;]/p[@id=&apos;ui-accordion-accordion-panel-8&apos;]//div[2]//div[2]//*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vg6" Key="{1230058B-EE2E-43DE-A552-E4D15B18343C}">
+										<Image FileName="-210740441" Left="76" Top="483" Right="91" Bottom="498" />
+										<TypeInfo Item0="{8A875429-AA09-4BE9-A474-E4DA6574D5BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[@id=&apos;ui-accordion-accordion-panel-8&apos;]//div//div[3]//*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;tablist&apos;]/p[@id=&apos;ui-accordion-accordion-panel-8&apos;]//div[2]//div[3]//*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="frameSfCustomVisualFrame" Key="{6FFE188A-A09F-4469-9074-02B7C0F8D9D6}">
+										<Image FileName="-585041121" Left="91" Top="602" Right="1243" Bottom="866" />
+										<Selectors>
+											<Selector>
+												<Value Value="//iframe[@name=&apos;sf-custom-visual-frame&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//iframe[contains(@src, &apos;0&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//iframe" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="vgStLukesHospital" Key="{34374761-4700-462C-82F4-EA81304D3E1B}">
+												<Image FileName="-585041121" Left="258" Top="673" Right="1184" Bottom="760" />
+												<TypeInfo Item0="{8A875429-AA09-4BE9-A474-E4DA6574D5BB}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//*[name()=&apos;g&apos;]/*[name()=&apos;svg&apos;]" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="panelNonOutlier" Key="{97F3BEF0-4BFB-4C57-B096-BAC1104E4433}">
+										<Image FileName="306670339" Left="98" Top="304" Right="175" Bottom="324" />
+										<TypeInfo Item0="{8A875429-AA09-4BE9-A474-E4DA6574D5BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;Non-Outlier&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p[@id=&apos;ui-accordion-accordion-panel-4&apos;]//div/div/div[2]/div/div[contains(@class, &apos;sf-element-text-box&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{8BF0AE82-144E-4C21-B908-17D771071564}">
+			<Child Name="BrowserWindow" Owner="{EF5E6D02-5E78-47A3-9CB5-5EDF5D2CC5E8}" />
+			<Child Name="pageLogin" Owner="{A95E1EDC-FBCF-4E4E-BFCF-EF3C1FB5D441}">
+				<Child Name="form" Owner="{8D5DD76C-45FD-4579-B016-FEEA52A71F98}">
+					<Child Name="textboxInputemail3" Owner="{AE9AA706-E5C1-4DEE-A547-995C7705BA7B}" />
+					<Child Name="passwordboxInputpassword3" Owner="{8656C79D-F416-4DE7-A2C6-E409E587BE7D}" />
+					<Child Name="buttonLogIn" Owner="{F5BA1927-3083-4699-B38F-761409B5C1DC}" />
+				</Child>
+			</Child>
+			<Child Name="pageStLukeSLosTibcoSpotfire" Owner="{0E66371C-76D0-4A82-9EB0-38F1EDE570B1}">
+				<Child Name="panelUser" Owner="{C62BD080-AE35-4BA3-B54E-86DB2A4515AE}" />
+				<Child Name="panelLogOut" Owner="{A7F6EA86-8532-4C9D-A30A-31E6492562A3}" />
+				<Child Name="buttonOk" Owner="{D10FF5D8-07CD-4060-B5E0-CED5A276BFAF}" />
+				<Child Name="panelSelectBenchmarkOutlierFlag" Owner="{C08DF02C-F280-4819-A712-50EA995C4F58}" />
+				<Child Name="panel183" Owner="{20BEC8DC-87A4-4CFF-BC0E-4734E430FEB0}" />
+				<Child Name="textnodeFilters" Owner="{E77F6641-2AD6-45C9-A5C2-B469174D0C32}" />
+				<Child Name="buttonResetMarking" Owner="{E2E57241-AAEB-4138-B3BA-28D53CDB3AA3}" />
+				<Child Name="textnodeUiAccordionAccordionHead" Owner="{D6E3B24D-9427-4F09-B67E-1D35FB06EDEC}" />
+				<Child Name="textnodeUiAccordionAccordionHead2" Owner="{472A0B5A-56A0-464A-95F4-4D179DB4C839}" />
+				<Child Name="panelSoi" Owner="{BA3043AB-B932-45DE-A01D-C4D1353E84D5}" />
+				<Child Name="panel" Owner="{1675DFC1-465B-4E29-A510-B1A7952EAEBC}" />
+				<Child Name="panel1" Owner="{2979266B-4E38-43B4-8E63-DC564C872343}" />
+				<Child Name="buttonResetFilter" Owner="{FF98A89F-AF3A-4E3F-9EAD-FA37EDCA458B}" />
+				<Child Name="panel2" Owner="{69113B02-CFBE-473F-9152-9778F470D2C0}" />
+				<Child Name="buttonApplyMarkingsToFilter" Owner="{D6B0C933-D1CA-4AE3-AB08-60DF9EB7CE10}" />
+				<Child Name="linkModuleHome" Owner="{458DCCD1-4E72-446C-8810-F33BC6CF9F36}" />
+				<Child Name="panelLosDashboard" Owner="{5D42B9E2-4552-4BF3-8DF7-D30B71E669CE}" />
+				<Child Name="panel3" Owner="{9F9CEE47-AF6B-4700-B78B-1EF9CC2C9458}" />
+				<Child Name="vg" Owner="{DF47AE2D-EF82-48C5-9FFB-43B5A7481B20}" />
+				<Child Name="vg2" Owner="{553D0698-89FA-46EF-9623-5804F73A6703}" />
+				<Child Name="vg3" Owner="{ABD2E11F-C4E1-4D01-B975-66FE69990671}" />
+				<Child Name="textnodeUiAccordionAccordionHead3" Owner="{994E14F1-4C45-492D-8854-AE9DB05BFD3D}" />
+				<Child Name="panelAll1Values" Owner="{3140743B-6D6F-45C8-98BD-7BA5E79A0B59}" />
+				<Child Name="textnodeUiAccordionAccordionHead4" Owner="{63DB7456-320B-4F6A-8669-692152125840}" />
+				<Child Name="textnodeUiAccordionAccordionHead5" Owner="{96575E46-17BA-4647-A52B-F37E9A550802}" />
+				<Child Name="panelAprdrgdesc" Owner="{3A8CEF99-4DC8-4ECA-86F4-AE414EA9E9EB}" />
+				<Child Name="panelAprdrg" Owner="{5B499376-B1DC-497A-9A70-E8135BC0A246}" />
+				<Child Name="textnodeUiAccordionAccordionHead6" Owner="{534215AF-601F-4B02-BB4D-F8248E7535D2}" />
+				<Child Name="panel4" Owner="{92D22A5D-790C-4F0F-A37A-29A35AB8C3BF}" />
+				<Child Name="panel5" Owner="{46F94FBD-08C1-4844-8D23-904D2ECE9185}" />
+				<Child Name="textnodeSubscribeTab" Owner="{193423B2-78AF-4138-BF1B-61461FE121FD}" />
+				<Child Name="panelAprDrgGmlos" Owner="{7A0EB9E4-E09B-4FBB-A3A4-38D572328688}" />
+				<Child Name="textnodeAprDrgGmlos" Owner="{CF58263A-0BFD-4C14-B479-C901D95837A8}" />
+				<Child Name="panelBenchmarkLosSelector" Owner="{2B24A1E1-6C4D-4F06-878A-52606C238A1D}" />
+				<Child Name="panelSystem" Owner="{522C004B-B148-4FBE-B1F4-52D07F75B324}" />
+				<Child Name="textnodeSystem" Owner="{52F96EC5-0E6C-4D3B-9C50-21669E576B94}" />
+				<Child Name="panel6" Owner="{434632BE-AD15-45C6-8EC9-0C1920218AA0}" />
+				<Child Name="textnodeSystemFacility" Owner="{901A4618-6989-4B09-85E4-2E15B34EEB3E}" />
+				<Child Name="textnodeServiceLine" Owner="{8F8531BB-12B0-486C-87A4-35EEC6837383}" />
+				<Child Name="textnode" Owner="{A94F3907-5D64-439B-A5B4-E4E0585689D5}" />
+				<Child Name="textnodeHome" Owner="{57DD75F2-1FCD-4BE7-AA13-274C85CD58C7}" />
+				<Child Name="panel18385" Owner="{5F446211-6AA2-4915-8D36-EA23C56396BE}" />
+				<Child Name="vg4" Owner="{7BF8E462-88BA-4606-8964-FDA2BD1DCCC4}" />
+				<Child Name="vg5" Owner="{C20DD9BE-64D7-4C96-862C-A9376D0B8C61}" />
+				<Child Name="vg6" Owner="{1230058B-EE2E-43DE-A552-E4D15B18343C}" />
+				<Child Name="frameSfCustomVisualFrame" Owner="{6FFE188A-A09F-4469-9074-02B7C0F8D9D6}">
+					<Child Name="vgStLukesHospital" Owner="{34374761-4700-462C-82F4-EA81304D3E1B}" />
+				</Child>
+				<Child Name="panelNonOutlier" Owner="{97F3BEF0-4BFB-4C57-B096-BAC1104E4433}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

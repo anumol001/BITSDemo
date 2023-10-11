@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{CD44DFB5-8646-4AE0-B18D-D6364892E9D0}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45194.6024421296" objectName="Aliases.browser.pageStLukeSLosTibcoSpotfire.panelUser" objectLeft="635" objectTop="87" objectRight="701" objectBottom="131" clickPointX="675" clickPointY="120" imageFileName="tcvi1451317180440.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45194.6024652778" objectName="Aliases.browser.pageStLukeSLosTibcoSpotfire.panelLogOut" objectLeft="690" objectTop="192" objectRight="775" objectBottom="214" clickPointX="737" clickPointY="198" imageFileName="tcvi1451520380441.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45194.6025115741" objectName="Aliases.browser.pageStLukeSLosTibcoSpotfire.buttonOk" objectLeft="1025" objectTop="611" objectRight="1087" objectBottom="655" clickPointX="1059" clickPointY="635" imageFileName="tcvi1451937580443.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

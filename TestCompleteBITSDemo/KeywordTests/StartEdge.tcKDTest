@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{4FD9AE90-4B8E-44B5-AAF4-9113A69B7F52}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{98EACF50-FA7B-4595-8EDC-4C0B21157A52}">
+				<Data Description="Launches the specified browser and opens the specified URL in it." BrowserName="parametrized">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="URL" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="URL" />
+						<Parameter Name="PageLoadWaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+					<BrowserParameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="Browser" DefVarType="12" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Browser" />
+						<Parameter Name="Version" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="Platform" DefVarType="12" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="pX86" />
+								<Value Type="1" Value="1" Text="pX64" />
+								<Value Type="1" Value="-1" Text="pAny" />
+							</Values>
+						</Parameter>
+					</BrowserParameters>
+				</Data>
+			</Operation>
+			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+				<Data Description="Posts an information message to the test log." MessageType="0">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Edge load sucessfully" />
+						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+							<Values IsEnum="True">
+								<Value Type="1" Value="100" Text="pmLowest" />
+								<Value Type="1" Value="200" Text="pmLower" />
+								<Value Type="1" Value="300" Text="pmNormal" />
+								<Value Type="1" Value="400" Text="pmHigher" />
+								<Value Type="1" Value="500" Text="pmHighest" />
+							</Values>
+						</Parameter>
+						<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="4" Key="{548DAE0E-D0E6-49F6-9FE4-3F6EF1E32523}">
+		<Items>
+			<Variable Name="URL" Type="String" Local="False">
+				<DefValue StrValue="https://analyticsdev.guidehouse.com/spotfire/wp/analysis?file=/Healthcare/St%20Lukes/BITS/LOS/Dashboard/St.%20Luke%27s%20LOS&amp;waid=gQ0_AFtOikOC_-hDFpH71-16123808d78b-g&amp;wavid=0" />
+			</Variable>
+		</Items>
+	</Variables>
+	<Parameters Key="{E985AE64-9CD6-4FA6-9260-83D9B642E2A3}">
+		<Parameter0 Name="Browser" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Edge" Description="" />
+	</Parameters>
+</Root>

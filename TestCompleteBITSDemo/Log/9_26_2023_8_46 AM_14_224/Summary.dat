@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test3">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="45195.3658288426"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="name" type="S" value="LOS_Dashboard"/>
+						<Prp name="duration" type="I" value="0"/>
+						<Prp name="status" type="I" value="3"/>
+					</Node>
+					<Node name="test4">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="45195.3658288426"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="name" type="S" value="CloseEdge_2"/>
+						<Prp name="duration" type="I" value="0"/>
+						<Prp name="status" type="I" value="3"/>
+					</Node>
+					<Node name="test2">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="45195.3658288426"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="name" type="S" value="SelectBenchmark_OutlierFlag"/>
+						<Prp name="duration" type="I" value="0"/>
+						<Prp name="status" type="I" value="3"/>
+					</Node>
+					<Node name="test1">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="45195.3658288426"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="name" type="S" value="PageLoginAttempt_2"/>
+						<Prp name="duration" type="I" value="0"/>
+						<Prp name="status" type="I" value="3"/>
+					</Node>
+					<Node name="test0">
+						<Node name="warnings">
+							<Node name="warning0">
+								<Prp name="msg" type="S" value="SmartBear Test Extension is not Installed or is Disabled"/>
+							</Node>
+						</Node>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The execution process was interrupted."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The test execution was interrupted."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="45195.3654491319"/>
+						<Prp name="durationwithoutchildren" type="I" value="32794"/>
+						<Prp name="name" type="S" value="StartEdge_2"/>
+						<Prp name="duration" type="I" value="32794"/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBCADcAMgA1AEQAQwBDADcALQAxAEQARABBAC0ANAA2AEYAMQAtAEEAMQA0ADAALQAyAEMARgA1ADQAMAA2AEIAQQBCADQARAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+				</Node>
+				<Prp name="starttime" type="D" value="45195.3654491319"/>
+				<Prp name="name" type="S" value="TestCompleteBITSDemo"/>
+				<Prp name="incompletedtests" type="I" value="4"/>
+				<Prp name="duration" type="I" value="32794"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="failedtests" type="I" value="1"/>
+			</Node>
+		</Node>
+		<Prp name="key" type="S" value="{BB884243-B02A-499A-8FDD-5A2618D68C75}"/>
+		<Prp name="starttime" type="D" value="45195.3654425231"/>
+		<Prp name="host" type="S" value="USZU3ANLPWV004"/>
+		<Prp name="stop" type="D" value="45195.3658301157"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="testname" type="S" value="TestCompleteBITSDemo"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="executionstatus" type="I" value="2"/>
+		<Prp name="incompletedtests" type="I" value="4"/>
+		<Prp name="failedtests" type="I" value="1"/>
+		<Prp name="tests" type="I" value="5"/>
+		<Prp name="name" type="S" value="BITSDemo"/>
+		<Prp name="user" type="S" value="jdas002"/>
+	</Node>
+</Nodes>
